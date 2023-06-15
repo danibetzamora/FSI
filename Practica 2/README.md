@@ -5,6 +5,10 @@ Proyecto realizado para la asignatura ***Fundamentos de los Sistemas Inteligente
 El dataset en cuestión está compuesto por 5 clases distintas de felinos, pudiendo distinguir entre: Caracal, Leopardo, Ocelote, León y Tigre. En este conjunto de datos se aplica la técnica de ***Data Augmentation***, mediante la cual se pretende lograr
 un aumento de la diversidad del conjunto de datos mediante la aplicación de transformaciones a las muestras existentes.
 
+El dataset fue extraído del siguiente enlace: https://www.kaggle.com/datasets/gpiosenka/cats-in-the-wild-image-classification
+
+En dicho enlace de Kaggle se encuentra un conjunto de datos con 10 clases distintas, de las cuales se hizo una selección de las 5 más características para llevar a cabo esta práctica.
+
 #--------------------------------------------------------------EXPLICACIÓN DE LA RED---------------------------------------------------------------#
 
 La estructura de la red está formada por 4 capas convolutivas, en las cuales se incrementa el número de neuronas proporcionalmente (32, 64, 128 y 256 filtros por capa convolutiva). Al añadir varias capas consecutivas e incrementar los filtros se pretende 
